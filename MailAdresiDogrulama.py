@@ -25,3 +25,11 @@ def kontrol(mailAdresi,uzantıUzunluk) :
         else :
           return False
       return True
+uzantıUzunluk = int(input("Uzantı Uzunluğu : "))
+mailAdresi = input("Mail Adresi : ")
+kontrol(mailAdresi,uzantıUzunluk)
+if kontrol(mailAdresi,uzantıUzunluk) == True :
+  print('Mail adresiniz doğrudur.')
+else : 
+  print('Mail adresiniz yanlıştır')
+
